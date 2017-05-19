@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="./style/bootstrap.min.css" rel="stylesheet">
+    <link href="./style/index.css" rel="stylesheet">
+    <script src="./scripts/jquery-3.2.1.min.js"></script>
+    <script src="./scripts/jquery-1.11.3.min.js"></script>
+    <script src="./scripts/parallax.js"></script>
+    <script src="./scripts/parallax.min.js"></script>
+    <script src="./scripts/rellax.js"></script>
+    <script src="./scripts/rellax.min.js"></script>
+    <script src="./scripts/parallax.min.js"></script>
+    <script src="./scripts/bootstrap.min.js"></script>
+    <script src="./scripts/ScrollTrigger.js"></script>
+    <script src="./scripts/ScrollTrigger.min.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script>
+        function ymy() {
+            var a=setTimeout("$('#clickme').fadeIn()",500)
+            var b=setTimeout("$('.name').fadeIn()",500)
+        }
+        window.counter = function() {
+            // this refers to the html element with the data-scroll-showCallback tag
+            var span = this.querySelector('span');
+            var current = parseInt(span.textContent);
+
+            span.textContent = current + 1;
+        };
+
+        document.addEventListener('DOMContentLoaded', function(){
+            var trigger = new ScrollTrigger();
+            addHeight: true;
+        });
+
+    </script>
+</head>
+<body onload="ymy()">
+<div id="welcome">
+    <div class="name">
+        <p style="display: inline;margin-right: 10px;color: white">Name :</p><input id="name" type="text" placeholder="Welcome">
+    </div>
+    <a id='clickme'href="#" >
+        <p>Getting Start</p>
+    </a>
+</div>
+<div id="image-a" class="parallax-container" data-parallax="scroll" data-bleed="10" data-natural-width="1400" data-natural-height="1400"></div>
+<section style="height:500px;">
+    <div data-scroll="toggle(.fromLeftIn, .fromLeftOut)" class="container">
+         any other year in history, said a report jointly released by the Rhodium Group and the National Committee on US-China Relations (NCUSCR).Foreign Direct Investment (FDI) between China and the US passed 60 billion US dollars in 2016, more than any other year in history, said a report jointly released by the Rhodium Group and the National Committee on US-China Relations (NCUSCR).Foreign Direct Investment (FDI) between China and the US passed 60 billion US dollars in 2016, more than any other year in history, said a report jointly released by the Rhodium Group and the National Committee on US-China Relations (NCUSCR).Foreign Direct Investment (FDI) between China and the US passed 60 billion US dollars in 2016, more than any other year in history, said a report jointly released by the Rhodium Group and the National Committee on US-China Relations (NCUSCR).Foreign Direct Investment (FDI) between China and the US passed 60 billion US dollars in 2016, more than any other year in history, said a report jointly released by the Rhodium Group and the National Committee on US-China Relations (NCUSCR).Foreign Direct Investment (FDI) between China and the US passed 60 billion US dollars in 2016, more than any other year in history, said a report jointly released by the Rhodium Group and the National Committee on US-China Relations (NCUSCR).Foreign Direct Investment (FDI) between China and the US passed 60 billion US dollars in 2016, more than any other year in history, said a report jointly released by the Rhodium Group and the National Committee on US-China Relations (NCUSCR).Foreign Direct Investment (FDI) between China and the US passed 60 billion US dollars in 2016, more than any other year in history, said a report jointly released by the Rhodium Group and the National Committee on US-China Relations (NCUSCR).Foreign Direct Investment (FDI) between China and the US passed 60 billion US dollars in 2016, more than any other year in history, said a report jointly released by the Rhodium Group and the National Committee on US-China Relations (NCUSCR). Direct Investment (FDI) between China and the US passed 60 billion US dollars in 2016, more than any other year in history, said a report jointly released by the Rhodium Group and the National Committee on US-China Relations (NCUSCR).Foreign Direct Investment (FDI) between China and the US passed 60 billion US dollars in 2016, more than any other year in history, said a report jointly released by the Rhodium Group and the National Committee on US-China Relations (NCUSCR).Foreign Direct Investment (FDI) between China and the US passed 60 billion US dollars in 2016, more than any other year in history, said a report jointly released by the Rhodium Group and the National Committee on US-China Relations (NCUSCR).Foreign Direct Investment (FDI) between China and the US passed 60 billion US dollars in 2016, more than any other year in history, said a report jointly released by the Rhodium Group and the National Committee on US-China Relations (NCUSCR).
+    </div>
+</section>
+
+<div id="image-b"class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-natural-width="700" data-natural-height="600">
+    <div class="container">
+        图片上加字
+    </div>
+</div>
+<section>
+    <div class="container">
+        第一段
+    </div>
+</section>
+
+<div id="image-c" class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-natural-width="1400" data-natural-height="1600"></div>
+<section>
+    <div class="container">
+        第二段
+    </div>
+</section>
+
+<div id="image-d" class="parallax-container" data-parallax="scroll" data-bleed="10" data-image-src="http://pixelcog.github.io/parallax.js/img/spiral-galaxy-1400x900.jpg" data-natural-width="1400" data-natural-height="900"></div>
+<section>
+    <div class="container">
+        第三段
+    </div>
+</section>
+
+<div id="image-e" class="parallax-container" data-parallax="scroll" data-bleed="10" data-image-src="http://pixelcog.github.io/parallax.js/img/reflection-nebula-750x763.jpg" data-natural-width="750" data-natural-height="763"></div>
+<section>
+    <div class="container">
+        第四段
+    </div>
+</section>
+
+</body>
+</html>
