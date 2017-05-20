@@ -41,7 +41,14 @@ footer a:hover {
     width: 100%;
 }
 section{
-    height:600px;
+
+}
+.container{
+    font-size: 18px;
+    line-height: 35px;
+}
+p{
+    margin: 0 0 30px !important;
 }
 .hide{
     display: none;
