@@ -49,7 +49,8 @@ background-image: url("../images/bannertext.jpg");
     background-size: 90%;
 }
 section{
-
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .container{
     font-size: 18px;
