@@ -36,9 +36,17 @@ footer a:hover {
 
 #welcome{
     position: fixed;
-    background-image:url("../images/earthrise.jpg");
+    background-image:url("https://svs.gsfc.nasa.gov/vis/a000000/a004100/a004129/earthrise.2400.jpg");
     height: 100%;
     width: 100%;
+}
+#bannertext{
+background-image: url("../images/bannertext.jpg");
+    width: 100%;
+    height: 678px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
 }
 section{
 
