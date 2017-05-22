@@ -3,7 +3,7 @@
  */
 $(function(){
         $("#image-banner").attr("data-image-src","images/1.jpg");
-        $("#image-a").attr("data-image-src","images/timg.jpg");
+        $("#image-a").attr("data-image-src","images/third.jpg");
         $("#image-b").attr("data-image-src","images/xiongdazhen2.jpg");
         $("#image-c").attr("data-image-src","images/dengjiaxian3.jpg");
         $("#image-d").attr("data-image-src","images/shiye.jpg");
