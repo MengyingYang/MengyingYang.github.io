@@ -21,11 +21,11 @@
 </head>
 <body onload="ymy()">
 <div id="welcome">
-    <div class="name">
-        <p style="display: inline;margin-right: 10px;color: white">Name :</p><input id="name" type="text" placeholder="Welcome">
-    </div>
+    <!--<div class="name">-->
+        <!--<p style="display: inline;margin-right: 10px;color: white">Name :</p><input id="name" type="text" placeholder="Welcome">-->
+    <!--</div>-->
     <a id='clickme'href="#" >
-        <p>Getting Start</p>
+        <p style="margin-top: 30px">十爷，欢迎回家，</p>
     </a>
 </div>
 
@@ -107,16 +107,64 @@
 <div id="image-d" class="parallax-container" data-parallax="scroll" data-bleed="10"  data-natural-width="600" data-natural-height="600"></div>
 <section>
     <div class="container">
-        第三段
+        <p>十爷：</p>
+
+        <p>生日快乐。</p>
+
+        <p>我想了很久，搭建起这个网站、写下这几个故事，可能暂时是我能为你做到的最好的了。</p>
+
+        <p>2016年5月22日，我还在上海的飞洲国际大厦，撕着胶带贴着快递单。2017年5月22日，我已经在北京的中央电视台，端着电脑奔走忙碌。</p>
+
+        <p>天南海北一千里，春去秋来又三年。</p>
+
+        <p>我今年也已经二十过半，我知道在你面前谈人生感悟，终是有班门弄斧。但只要是成长的日子，都会撕着皮连着肉。我看到的数字有颜色，看到的文字有质感。我似乎永远都充斥着惊世骇俗的想法，相信的那些美好奇妙的东西也很可能永不存在。这一切都直接导致我与其他小朋友有着难以逾越的交流困难，最后没人愿意听，最后我也懒得讲。</p>
+
+        <p>因而我一直叫嚣自己生性凉薄，不过只是为了给自己找一个还算光鲜的台阶。我确实一个人走过不少的孤独日子，这数量在今后的悠长岁月里着实寥寥无几，却也真的占了我这前小半生太多份量。</p>
+
+        <p>所以十爷，我很感谢你能来。</p>
+
+        <p>我是一个骄傲且不切实际的人，从小就根深蒂固的宇宙唯我论，随着年龄增长却不曾消散半分。举着百变小樱魔法卡玩一天的那个人，至今依旧会在没人的角落里悄悄念天使兽变身。</p>
+
+        <p> 我很感谢你能来。</p>
+
+        <p>我还有好多话想说，却也自知没有什么权利，也就不再去多言。但是我希望你知道，这么些年来我藏在衣袖里舍不得示人的花，只要你说你需要，我会统统给你，统统都给你。</p>
+
+        <p>我很开心能和你一起看过月亮，就像好多年后一样。</p>
+
+        <p>海上月是天上月，眼前人是心上人。</p>
+
+        <p style="text-align: right">八娘<br>2017年5月22日<br> 愿你平安喜乐 愿你梦想成真</p>
+
     </div>
 </section>
 
-<div id="image-e" class="parallax-container" data-parallax="scroll" data-bleed="10" data-image-src="http://pixelcog.github.io/parallax.js/img/reflection-nebula-750x763.jpg" data-natural-width="1100" data-natural-height="763"></div>
+<div id="image-e" class="parallax-container" data-parallax="scroll" data-bleed="10" data-image-src="http://pixelcog.github.io/parallax.js/img/reflection-nebula-750x763.jpg" data-natural-width="1100" data-natural-height="600"></div>
 <section>
-    <div class="container">
-        第四段
+    <div class="container" id="future">
+        <div class="zhanwei"><p id="disapper1">十爷，我不确定你能不能看到这段文字。</p></div>
+        <div class="zhanwei"><p id="disapper2">根据时空管理局所规定的观察者准则,</p></div>
+        <div class="zhanwei"><p id="disapper3">你看到时我便会逐渐坍缩。</p></div>
+        <div class="zhanwei"><p id="disapper4">我在我们未来的银河帝国等你。</p></div>
     </div>
 </section>
 
+<div id="image-f" class="parallax-container" data-parallax="scroll" data-bleed="10" data-natural-width="1100" data-natural-height="763"></div>
+<script>
+
+    function hey() {
+        var c1=setTimeout("$('#disapper1').fadeOut()",1000)
+        var c2=setTimeout("$('#disapper2').fadeOut()",2500)
+        var c3=setTimeout("$('#disapper3').fadeOut()",3500)
+        var c4=setTimeout("$('#disapper4').fadeOut()",4500)
+    }
+
+    window.onscroll=function () {
+        var n=document.getElementById('future').getBoundingClientRect().top;
+            if(n<=329){
+                hey()
+            }
+        console.log(n)
+    }
+</script>
 </body>
 </html>

@@ -8,6 +8,7 @@ $(function(){
         $("#image-c").attr("data-image-src","images/dengjiaxian3.jpg");
         $("#image-d").attr("data-image-src","images/shiye.jpg");
         $("#image-e").attr("data-image-src","images/city2.jpg");
+        $("#image-f").attr("data-image-src","images/bg3.jpg");
 
 
     if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {

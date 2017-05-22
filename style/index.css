@@ -57,7 +57,7 @@ section{
     line-height: 35px;
 }
 p{
-    margin: 0 0 30px !important;
+    margin: 5px 0 20px 0px !important;
 }
 .hide{
     display: none;
@@ -90,4 +90,8 @@ p{
     color: white;
     border-bottom: 1px solid #fff;
     background:none;
+}
+.zhanwei{
+    height:50px;
+    width: 100%;
 }
