@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb43632d-f414-4bcd-8b6d-f9134ba62bd9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +18,15 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="139" column="46" lean-forward="false" selection-start-line="139" selection-start-column="46" selection-end-line="139" selection-end-column="46" />
+            <state relative-caret-position="750">
+              <caret line="152" column="48" lean-forward="true" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#6;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#9;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#3;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1495794963601" expanded="false" signature="987:1034" ph="..." />
+                <element signature="n#style#0;n#p#13;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1495892849280" expanded="false" signature="987:1034" ph="..." />
               </folding>
             </state>
           </provider>
@@ -34,7 +35,7 @@
       <file leaf-file-name="parallax.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/parallax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="150">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -128,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,6 +172,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -672,7 +673,8 @@
       <option name="presentableId" value="Default" />
       <updated>1495183849111</updated>
       <workItem from="1495183851261" duration="43538000" />
-      <workItem from="1495794062679" duration="914000" />
+      <workItem from="1495794062679" duration="1051000" />
+      <workItem from="1495892776298" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="delete some files">
       <created>1495260202612</created>
@@ -692,7 +694,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44452000" />
+    <option name="totallyTimeSpent" value="44665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="-9" width="1800" height="1098" extended-state="6" />
@@ -753,8 +755,49 @@
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#6;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#9;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1495794963601" expanded="false" signature="987:1034" ph="..." />
+            <element signature="n#style#0;n#p#13;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1495892849280" expanded="false" signature="987:1034" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/parallax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#6;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#9;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#13;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1495892849280" expanded="false" signature="987:1034" ph="..." />
           </folding>
         </state>
       </provider>
@@ -807,7 +850,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/parallax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="150">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -838,15 +881,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="139" column="46" lean-forward="false" selection-start-line="139" selection-start-column="46" selection-end-line="139" selection-end-column="46" />
+        <state relative-caret-position="750">
+          <caret line="152" column="48" lean-forward="true" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#6;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#9;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1495794963601" expanded="false" signature="987:1034" ph="..." />
+            <element signature="n#style#0;n#p#13;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1495892849280" expanded="false" signature="987:1034" ph="..." />
           </folding>
         </state>
       </provider>
